@@ -5,7 +5,7 @@ window.addEventListener( 'load', () => {
     document.querySelector( '#toggle-chat-pane' ).addEventListener( 'click', ( e ) => {
         let chatElem = document.querySelector( '#chat-pane' );
         let mainSecElem = document.querySelector( '#main-section' );
-
+ 
         if ( chatElem.classList.contains( 'chat-opened' ) ) {
             chatElem.setAttribute( 'hidden', true );
             mainSecElem.classList.remove( 'col-md-9' );

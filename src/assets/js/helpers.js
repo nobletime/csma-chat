@@ -6,7 +6,7 @@ export default {
         return crypto.getRandomValues(array);
     },
 
-
+ 
     closeVideo( elemId ) {
         if ( document.getElementById( elemId ) ) {
             document.getElementById( elemId ).remove();

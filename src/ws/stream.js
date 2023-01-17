@@ -9,7 +9,7 @@ const stream = ( socket ) => {
             socket.to( data.room ).emit( 'new user', { socketId: data.socketId } );
         }
     } );
-
+ 
 
     socket.on( 'newUserStart', ( data ) => {
         socket.to( data.to ).emit( 'newUserStart', { sender: data.sender } );
