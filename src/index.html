@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Multi-User Video Call</title>
+        <title>CSMA Video Chat</title>
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
@@ -20,6 +20,7 @@
     </head>
 
     <body>
+        <h3>CSMA Video Chat</h3>
         <div class="custom-modal" id='recording-options-modal'>
             <div class="custom-modal-content">
                 <div class="row text-center">
@@ -75,7 +76,7 @@
 
         <div class="container-fluid" id='room-create' hidden>
             <div class="row">
-                <div class="col-12 h2 mt-5 text-center">Create Room</div>
+                <div class="col-12 h2 mt-5 text-center">CSMA Video Chat</div>
             </div>
             
             <div class="row mt-2">
@@ -85,7 +86,7 @@
 
                 <div class="col-12 col-md-4 offset-md-4 mb-3">
                     <label for="room-name">Room Name</label>
-                    <input type="text" id='room-name' class="form-control rounded-0" placeholder="Room Name">
+                    <input type="text" id='room-name' class="form-control rounded-0" value="csma" placeholder="Room Name">
                 </div>
 
                 <div class="col-12 col-md-4 offset-md-4 mb-3">
@@ -94,7 +95,7 @@
                 </div>
 
                 <div class="col-12 col-md-4 offset-md-4 mb-3">
-                    <button id='create-room' class="btn btn-block rounded-0 btn-info">Create Room</button>
+                    <button id='create-room' class="btn btn-block rounded-0 btn-info">Start Chat</button>
                 </div>
 
                 <div class="col-12 col-md-4 offset-md-4 mb-3" id='room-created'></div>
