@@ -16,4 +16,5 @@ app.get( '/', ( req, res ) => {
 
 io.of( '/stream' ).on( 'connection', stream );
  
-server.listen( 5000 );
+const port = process.env.PORT || 3005;
+server.listen( port );
